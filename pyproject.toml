@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "page-object-model"
+version = "0.1.0"
+description = ""
+authors = ["Elena Donyakina <hellengoll@gmail.com>"]
+readme = "README.md"
+packages = [{include = "page_object_model"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.3.1"
+chromedriver = "^2.24.1"
+selenium = "^4.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
