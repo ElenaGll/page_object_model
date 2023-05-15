@@ -13,6 +13,13 @@ chromedriver = "^2.24.1"
 selenium = "^4.9.0"
 
 
+[tool.pytest.ini_options]
+markers = [
+    "user: marks tests for users",
+    "login_guest: marks tests for guests",
+]
+
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
